@@ -88,9 +88,9 @@
 &kp Z          &kp X         &kp C               &kp V                 &kp B        &kp COLON               &lt 6 BACKSLASH      &kp N        &kp M  &kp COMMA  &kp DOT  &kp BACKSPACE
 &mt LCTRL ESC  &kp LEFT_WIN  &mt LEFT_ALT GRAVE  &mkpt MB3 INT_HENKAN  &lt 5 ENTER  &lt_to_layer_0 1 TAB    &lt 1 BACKSPACE      &lt 2 SPACE                             &mt RIGHT_SHIFT SLASH
             >;
-            sensor-bindings =
-                <&scroll_up_down>,
-                <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+            //sensor-bindings =
+            //    <&scroll_up_down>,
+            //    <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
         FUNCTION {
@@ -109,7 +109,6 @@
 &trans  &trans  &kp KP_NUMBER_2  &kp F11  &kp F12  &trans                &trans  &trans  &trans  &trans         &trans  &kp LC(LA(INS))
 &trans  &trans  &trans           &trans   &trans   &trans                &trans  &trans                                 &trans
             >;
-
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
@@ -120,7 +119,6 @@
 &kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans          &trans                  &trans          &trans                   &trans   &trans    &trans  &trans                          &trans
             >;
-
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
         };
 
@@ -131,7 +129,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
 &trans  &trans  &trans  &trans  &trans  &trans    &trans       &trans                                                  &bt BT_CLR_ALL
             >;
-
             sensor-bindings = <&scroll_up_down>;
         };
 
@@ -142,7 +139,6 @@
 &kp HOME  &kp PAGE_DOWN     &kp END       &kp PG_UP          &kp APOSTROPHE  &trans    &trans     &kp UNDERSCORE   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSPACE
 &trans    &trans            &trans        &trans             &trans          &trans    &kp ENTER  &kp NUMBER_0                                               &kp QUESTION
             >;
-
             sensor-bindings = <&scroll_up_down>;
         };
 
@@ -153,7 +149,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                            &trans
             >;
-
             sensor-bindings = <&scroll_up_down>;
         };
     };
